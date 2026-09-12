@@ -1,0 +1,45 @@
+{
+  "name": "radial-revolver-menu",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "Animated Radial Revolver Menu built with React, Tailwind CSS, and Framer Motion",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "keywords": [
+    "react",
+    "radial-menu",
+    "circular-menu",
+    "framer-motion",
+    "animation",
+    "tailwind",
+    "navigation",
+    "ui"
+  ],
+  "author": "Anshuman Yadav",
+  "license": "MIT",
+  "dependencies": {
+    "clsx": "^2.1.1",
+    "framer-motion": "^11.16.0",
+    "lucide-react": "^0.469.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "tailwind-merge": "^2.5.5"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.5",
+    "@types/react": "^18.3.18",
+    "@types/react-dom": "^18.3.5",
+    "@vitejs/plugin-react": "^4.3.4",
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.4.49",
+    "tailwindcss": "^3.4.17",
+    "typescript": "^5.7.3",
+    "vite": "^6.0.7"
+  }
+}
